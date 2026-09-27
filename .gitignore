@@ -1,0 +1,39 @@
+### Vivado ###
+*.jou
+*.log
+*.str
+.Xil/
+*.runs/
+*.sim/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.gen/
+*.srcs/sources_1/bd/*/hdl/
+*.xpr.backup.*
+.ipdefs/
+vivado*.backup.log
+usage_statistics_webtalk.html
+usage_statistics_webtalk.xml
+NA
+webtalk/
+*.bit
+*.mcs
+*.prm
+*_bd.tcl.bak
+
+### Vitis Unified IDE ###
+*/_ide/
+!*/_ide/version.ini
+!*/_ide/setting.json
+**/build/
+**/Debug/
+**/Release/
+*.o
+*.d
+*.elf.size
+*.log
+
+### General ###
+*.bak
+*.t

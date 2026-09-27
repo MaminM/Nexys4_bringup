@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/mamin/Documents/GitHub/Nexys4_bringup/nexys4_uart/src/.compile_commands",
+  "command": "C:\\AMDDesignTools\\2026.1\\Vitis\\gnu\\riscv\\nt\\bin\\riscv64-unknown-elf-gcc.exe -IC:/Users/mamin/Documents/GitHub/Nexys4_bringup/nexys4_uart/src -isystem C:/Users/mamin/Documents/GitHub/Nexys4_bringup/nexys4_microblazeV_UART/export/nexys4_microblazeV_UART/sw/standalone_microblaze_riscv_0/include -isystem C:/AMDDesignTools/2026.1/gnu/riscv/nt/x86_64-w64-mingw32/usr/lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.4.0/include -isystem C:/AMDDesignTools/2026.1/gnu/riscv/nt/x86_64-w64-mingw32/usr/lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.4.0/include-fixed -isystem C:/AMDDesignTools/2026.1/Vitis/gnu/riscv/nt/riscv32-xilinx-elf/usr/include   -march=rv32ia_zicsr_zifencei -mabi=ilp32 -DSDT  -MMD -MP  -specs=C:/Users/mamin/Documents/GitHub/Nexys4_bringup/nexys4_microblazeV_UART/export/nexys4_microblazeV_UART/sw/standalone_microblaze_riscv_0/Xilinx.spec -IC:/Users/mamin/Documents/GitHub/Nexys4_bringup/nexys4_microblazeV_UART/export/nexys4_microblazeV_UART/sw/standalone_microblaze_riscv_0/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles\\nexys4_uart.elf.dir\\dummy.c.obj -c C:\\Users\\mamin\\Documents\\GitHub\\Nexys4_bringup\\nexys4_uart\\src\\dummy.c",
+  "file": "C:\\Users\\mamin\\Documents\\GitHub\\Nexys4_bringup\\nexys4_uart\\src\\dummy.c",
+  "output": "CMakeFiles\\nexys4_uart.elf.dir\\dummy.c.obj"
+}
+]
