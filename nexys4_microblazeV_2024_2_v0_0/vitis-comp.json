@@ -1,0 +1,51 @@
+{
+  "name": "nexys4_microblazeV_2024_2_v0_0",
+  "type": "PLATFORM",
+  "configuration": {
+    "description": "",
+    "xsa": "C:\\Users\\mamin\\Documents\\GitHub\\Nexys4_bringup\\Vivado_2024_2\\nexys4_microblazeV_2024_2_v0.1.xsa",
+    "xsaPathInPlatform": "nexys4_microblazeV_2024_2_v0_0\\hw\\nexys4_microblazeV_2024_2_v0.1.xsa",
+    "emulationXsa": "",
+    "emulationXsaPathInPlatform": "",
+    "isCustomFSBL": false,
+    "fsblPath": "",
+    "pmufwElf": "",
+    "flow": "EMBEDDED",
+    "processorsMap": {
+      "microblaze_riscv_0": "microblaze_riscv"
+    },
+    "supportedFamily": "fpga",
+    "stdGenHookList": [
+      {
+        "key": "VITIS_SDT_REPO",
+        "value": ""
+      },
+      {
+        "key": "VITIS_SDT_BOARD_DTS",
+        "value": ""
+      },
+      {
+        "key": "VITIS_SDT_INCLUDE_DTS",
+        "value": ""
+      }
+    ],
+    "componentType": "PLATFORM",
+    "domains": [
+      {
+        "name": "standalone_microblaze_riscv_0",
+        "displayName": "standalone_microblaze_riscv_0",
+        "processor": "microblaze_riscv_0",
+        "cpuType": "microblaze_riscv",
+        "cpuInstance": "microblaze_riscv_0",
+        "os": "standalone",
+        "appTemplate": "empty_application",
+        "isBootDomain": false,
+        "qemuData": "",
+        "qemuArgsFile": "",
+        "pmcQemuArgsFile": "",
+        "isBSPGenReq": false
+      }
+    ],
+    "emptyToolchainConfiguration": []
+  }
+}

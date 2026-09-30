@@ -1,15 +1,37 @@
-# 2026-09-27T17:41:33.695960100
+# 2026-09-29T20:56:53.583075300
 import vitis
 
 client = vitis.create_client()
 client.set_workspace(path="Nexys4_bringup")
 
-comp = client.clone_component(name="nexys4_microblazeV_UART",new_name="nexys4_microblazeV")
+platform = client.get_component(name="nexys4_microblazeV_2024_2_v0_0")
+status = platform.build()
 
-platform = client.get_component(name="nexys4_microblazeV")
-status = platform.update_hw(hw_design = "$COMPONENT_LOCATION/../Vivado/nexys4_microblazeV_v0.3.xsa")
+comp = client.get_component(name="nexys4_microblazeV_2024_2v_0_0_app")
+comp.build()
 
-comp = client.get_component(name="nexys4_microblazeV_empty")
+status = platform.build()
+
+comp.build()
+
+status = platform.build()
+
+comp.build()
+
+status = platform.build()
+
+comp.build()
+
+status = comp.clean()
+
+status = platform.build()
+
+comp.build()
+
+status = platform.build()
+
+comp.build()
+
 status = comp.clean()
 
 status = platform.build()
@@ -22,7 +44,7 @@ comp.build()
 
 status = platform.build()
 
-status = comp.clean()
+comp.build()
 
 status = platform.build()
 
