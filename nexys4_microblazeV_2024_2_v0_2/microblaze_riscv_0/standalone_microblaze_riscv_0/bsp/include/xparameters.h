@@ -1,0 +1,137 @@
+#ifndef XPARAMETERS_H   /* prevent circular inclusions */
+#define XPARAMETERS_H   /* by using protection macros */
+
+#define XPAR_XGPIO_NUM_INSTANCES 2
+
+/* Definitions for peripheral AXI_GPIO_0 */
+#define XPAR_AXI_GPIO_0_COMPATIBLE "xlnx,axi-gpio-2.0"
+#define XPAR_AXI_GPIO_0_BASEADDR 0x40000000
+#define XPAR_AXI_GPIO_0_HIGHADDR 0x4000ffff
+#define XPAR_AXI_GPIO_0_INTERRUPT_PRESENT 0x0
+#define XPAR_AXI_GPIO_0_IS_DUAL 0x1
+#define XPAR_AXI_GPIO_0_GPIO_WIDTH 0x10
+
+/* Canonical definitions for peripheral AXI_GPIO_0 */
+#define XPAR_XGPIO_0_BASEADDR 0x40000000
+#define XPAR_XGPIO_0_HIGHADDR 0x4000ffff
+#define XPAR_XGPIO_0_COMPATIBLE "xlnx,axi-gpio-2.0"
+#define XPAR_XGPIO_0_GPIO_WIDTH 0x10
+#define XPAR_XGPIO_0_INTERRUPT_PRESENT 0x0
+#define XPAR_XGPIO_0_IS_DUAL 0x1
+
+/* Definitions for peripheral AXI_GPIO_1 */
+#define XPAR_AXI_GPIO_1_COMPATIBLE "xlnx,axi-gpio-2.0"
+#define XPAR_AXI_GPIO_1_BASEADDR 0x40010000
+#define XPAR_AXI_GPIO_1_HIGHADDR 0x4001ffff
+#define XPAR_AXI_GPIO_1_INTERRUPT_PRESENT 0x0
+#define XPAR_AXI_GPIO_1_IS_DUAL 0x1
+#define XPAR_AXI_GPIO_1_GPIO_WIDTH 0x6
+
+/* Canonical definitions for peripheral AXI_GPIO_1 */
+#define XPAR_XGPIO_1_BASEADDR 0x40010000
+#define XPAR_XGPIO_1_HIGHADDR 0x4001ffff
+#define XPAR_XGPIO_1_COMPATIBLE "xlnx,axi-gpio-2.0"
+#define XPAR_XGPIO_1_GPIO_WIDTH 0x6
+#define XPAR_XGPIO_1_INTERRUPT_PRESENT 0x0
+#define XPAR_XGPIO_1_IS_DUAL 0x1
+
+#define XPAR_XTMRCTR_NUM_INSTANCES 6
+
+/* Definitions for peripheral AXI_TIMER_0 */
+#define XPAR_AXI_TIMER_0_COMPATIBLE "xlnx,axi-timer-2.0"
+#define XPAR_AXI_TIMER_0_BASEADDR 0x41c00000
+#define XPAR_AXI_TIMER_0_HIGHADDR 0x41c0ffff
+#define XPAR_AXI_TIMER_0_CLOCK_FREQUENCY 0x5f5e100
+
+/* Canonical definitions for peripheral AXI_TIMER_0 */
+#define XPAR_XTMRCTR_0_BASEADDR 0x41c00000
+#define XPAR_XTMRCTR_0_HIGHADDR 0x41c0ffff
+#define XPAR_XTMRCTR_0_COMPATIBLE "xlnx,axi-timer-2.0"
+#define XPAR_XTMRCTR_0_CLOCK_FREQUENCY 0x5f5e100
+
+/* Definitions for peripheral AXI_TIMER_1 */
+#define XPAR_AXI_TIMER_1_COMPATIBLE "xlnx,axi-timer-2.0"
+#define XPAR_AXI_TIMER_1_BASEADDR 0x41c10000
+#define XPAR_AXI_TIMER_1_HIGHADDR 0x41c1ffff
+#define XPAR_AXI_TIMER_1_CLOCK_FREQUENCY 0x5f5e100
+
+/* Canonical definitions for peripheral AXI_TIMER_1 */
+#define XPAR_XTMRCTR_1_BASEADDR 0x41c10000
+#define XPAR_XTMRCTR_1_HIGHADDR 0x41c1ffff
+#define XPAR_XTMRCTR_1_COMPATIBLE "xlnx,axi-timer-2.0"
+#define XPAR_XTMRCTR_1_CLOCK_FREQUENCY 0x5f5e100
+
+/* Definitions for peripheral AXI_TIMER_2 */
+#define XPAR_AXI_TIMER_2_COMPATIBLE "xlnx,axi-timer-2.0"
+#define XPAR_AXI_TIMER_2_BASEADDR 0x41c20000
+#define XPAR_AXI_TIMER_2_HIGHADDR 0x41c2ffff
+#define XPAR_AXI_TIMER_2_CLOCK_FREQUENCY 0x5f5e100
+
+/* Canonical definitions for peripheral AXI_TIMER_2 */
+#define XPAR_XTMRCTR_2_BASEADDR 0x41c20000
+#define XPAR_XTMRCTR_2_HIGHADDR 0x41c2ffff
+#define XPAR_XTMRCTR_2_COMPATIBLE "xlnx,axi-timer-2.0"
+#define XPAR_XTMRCTR_2_CLOCK_FREQUENCY 0x5f5e100
+
+/* Definitions for peripheral AXI_TIMER_3 */
+#define XPAR_AXI_TIMER_3_COMPATIBLE "xlnx,axi-timer-2.0"
+#define XPAR_AXI_TIMER_3_BASEADDR 0x41c30000
+#define XPAR_AXI_TIMER_3_HIGHADDR 0x41c3ffff
+#define XPAR_AXI_TIMER_3_CLOCK_FREQUENCY 0x5f5e100
+
+/* Canonical definitions for peripheral AXI_TIMER_3 */
+#define XPAR_XTMRCTR_3_BASEADDR 0x41c30000
+#define XPAR_XTMRCTR_3_HIGHADDR 0x41c3ffff
+#define XPAR_XTMRCTR_3_COMPATIBLE "xlnx,axi-timer-2.0"
+#define XPAR_XTMRCTR_3_CLOCK_FREQUENCY 0x5f5e100
+
+/* Definitions for peripheral AXI_TIMER_5 */
+#define XPAR_AXI_TIMER_5_COMPATIBLE "xlnx,axi-timer-2.0"
+#define XPAR_AXI_TIMER_5_BASEADDR 0x41c40000
+#define XPAR_AXI_TIMER_5_HIGHADDR 0x41c4ffff
+#define XPAR_AXI_TIMER_5_CLOCK_FREQUENCY 0x5f5e100
+
+/* Canonical definitions for peripheral AXI_TIMER_5 */
+#define XPAR_XTMRCTR_4_BASEADDR 0x41c40000
+#define XPAR_XTMRCTR_4_HIGHADDR 0x41c4ffff
+#define XPAR_XTMRCTR_4_COMPATIBLE "xlnx,axi-timer-2.0"
+#define XPAR_XTMRCTR_4_CLOCK_FREQUENCY 0x5f5e100
+
+/* Definitions for peripheral AXI_TIMER_6 */
+#define XPAR_AXI_TIMER_6_COMPATIBLE "xlnx,axi-timer-2.0"
+#define XPAR_AXI_TIMER_6_BASEADDR 0x41c50000
+#define XPAR_AXI_TIMER_6_HIGHADDR 0x41c5ffff
+#define XPAR_AXI_TIMER_6_CLOCK_FREQUENCY 0x5f5e100
+
+/* Canonical definitions for peripheral AXI_TIMER_6 */
+#define XPAR_XTMRCTR_5_BASEADDR 0x41c50000
+#define XPAR_XTMRCTR_5_HIGHADDR 0x41c5ffff
+#define XPAR_XTMRCTR_5_COMPATIBLE "xlnx,axi-timer-2.0"
+#define XPAR_XTMRCTR_5_CLOCK_FREQUENCY 0x5f5e100
+
+/*  BOARD definition */
+#define XPS_BOARD_NEXYS4_DDR
+
+#define XPAR_LMB_BRAM_0_BASEADDRESS 0x0
+#define XPAR_LMB_BRAM_0_HIGHADDRESS 0x7fff
+
+/*  CPU parameters definition */
+#define XPAR_CPU_CORE_CLOCK_FREQ_HZ 100000000
+#define XPAR_MICROBLAZE_RISCV_USE_DCACHE 0
+#define XPAR_MICROBLAZE_RISCV_DCACHE_LINE_LEN 4
+#define XPAR_MICROBLAZE_RISCV_DCACHE_BYTE_SIZE 8192
+#define XPAR_MICROBLAZE_RISCV_USE_ICACHE 0
+#define XPAR_MICROBLAZE_RISCV_ICACHE_LINE_LEN 4
+#define XPAR_MICROBLAZE_RISCV_ICACHE_BYTE_SIZE 8192
+#define XPAR_MICROBLAZE_RISCV_USE_FPU 0
+#define XPAR_MICROBLAZE_RISCV_USE_MMU 0
+#define XPAR_MICROBLAZE_RISCV_USE_SLEEP 0
+#define XPAR_MICROBLAZE_RISCV_FAULT_TOLERANT 0
+#define XPAR_MICROBLAZE_RISCV_D_LMB 1
+#define XPAR_MICROBLAZE_RISCV_USE_BRANCH_TARGET_CACHE 0
+#define XPAR_MICROBLAZE_RISCV_BRANCH_TARGET_CACHE_SIZE 0
+
+/* Device ID */
+#define XPAR_DEVICE_ID "7a100t"
+
+#endif  /* end of protection macro */

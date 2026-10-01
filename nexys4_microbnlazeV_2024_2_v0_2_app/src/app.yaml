@@ -1,0 +1,4 @@
+domain_path: C:\Users\mamin\Documents\GitHub\Nexys4_bringup\nexys4_microblazeV_2024_2_v0_2\export\nexys4_microblazeV_2024_2_v0_2\sw\standalone_microblaze_riscv_0
+app_src_dir: C:\Xilinx\Vitis\2024.2\data\embeddedsw\lib\sw_apps\empty_application
+template: empty_application
+lang: c
